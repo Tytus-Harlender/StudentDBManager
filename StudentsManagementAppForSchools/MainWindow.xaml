@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Name="BtnInsert" Content="Insert to the database" HorizontalAlignment="Left" Margin="150,250,0,0" VerticalAlignment="Top" Width="120" Click="BtnInsert_OnClick"/>
+        <Button Name="BtnExit" Content="Exit" HorizontalAlignment="Left" Margin="342,330,0,0" VerticalAlignment="Top" Width="75" Click="BtnExit_OnClick"/>
+        <TextBox Name="txtStudentName" HorizontalAlignment="Left" Height="23" Margin="113,37,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name ="txtStudentSurname" HorizontalAlignment="Left" Height="23" Margin="113,80,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name ="txtStudentClass" HorizontalAlignment="Left" Height="23" Margin="113,134,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name ="txtStudentSupervisor" HorizontalAlignment="Left" Height="23" Margin="113,190,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="23,37,0,0" VerticalAlignment="Top"/>
+        <Label Content="Surname" HorizontalAlignment="Left" Margin="23,80,0,0" VerticalAlignment="Top"/>
+        <Label Content="Class" HorizontalAlignment="Left" Margin="23,134,0,0" VerticalAlignment="Top"/>
+        <Label Content="Supervisor" HorizontalAlignment="Left" Margin="23,190,0,0" VerticalAlignment="Top"/>
         
     </Grid>
 </Window>
